@@ -4,14 +4,14 @@
 	#Invert left and right click action on drawers
 	invertClick = false
 [Integration]
-	#Enable extended data display in WAILA if present
-	enableWaila = true
 	#Enable extended data display in The One Probe if present
 	enableTheOneProbe = true
+	#Enable extended data display in WAILA if present
+	enableWaila = true
 [Render]
-	#Distance in blocks before item labels stop rendering
-	labelRenderDistance = 20.0
-	#Distance in blocks before quantity numbers stop rendering
-	quantityRenderDistance = 10.0
 	#Distance in blocks before quantity numbers begin to fade out
 	quantityFadeDistance = 20.0
+	#Distance in blocks before quantity numbers stop rendering
+	quantityRenderDistance = 10.0
+	#Distance in blocks before item labels stop rendering
+	labelRenderDistance = 20.0
