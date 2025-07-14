@@ -611,9 +611,21 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2025-07-14 23:04:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
       "has_red_dye": "2025-07-14 23:03:20 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_white": {
+    "criteria": {
+      "has_dyes/black": "2025-07-14 23:05:19 +0000"
     },
     "done": true
   },
@@ -632,6 +644,18 @@
   "ae2:recipes/misc/network/cables/dense_covered_light_gray": {
     "criteria": {
       "has_dyes/black": "2025-07-14 23:03:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-14 23:04:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-07-14 23:05:19 +0000"
     },
     "done": true
   },
@@ -662,6 +686,18 @@
   "ae2:recipes/misc/network/cables/dense_covered_red": {
     "criteria": {
       "has_dyes/black": "2025-07-14 23:03:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2025-07-14 23:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2025-07-14 23:05:19 +0000"
     },
     "done": true
   },
@@ -749,6 +785,12 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/network/cables/smart_white": {
+    "criteria": {
+      "has_dyes/black": "2025-07-14 23:05:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_light_gray_bed": {
     "criteria": {
       "has_needed_dye": "2025-07-14 23:03:18 +0000"
@@ -779,6 +821,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2025-07-14 23:05:19 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/network/cables/glass_light_gray": {
     "criteria": {
       "has_dyes/black": "2025-07-14 23:03:18 +0000"
@@ -794,6 +842,18 @@
   "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
       "has_needed_dye": "2025-07-14 23:03:20 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_white": {
+    "criteria": {
+      "has_dyes/black": "2025-07-14 23:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2025-07-14 23:05:19 +0000"
     },
     "done": true
   },
@@ -827,6 +887,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-07-14 23:05:19 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/network/cables/glass_gray": {
     "criteria": {
       "has_dyes/black": "2025-07-14 23:03:23 +0000"
@@ -854,6 +920,18 @@
   "bagofholding:recipes/tools/iron_bag_of_holding": {
     "criteria": {
       "has_leather_bag_of_holding": "2025-07-14 23:02:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-07-14 23:05:19 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_white": {
+    "criteria": {
+      "has_dyes/black": "2025-07-14 23:05:19 +0000"
     },
     "done": true
   },
@@ -902,6 +980,12 @@
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2025-07-14 23:03:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-07-14 23:04:20 +0000"
     },
     "done": true
   },

@@ -1962,3 +1962,148 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
 	... 29 more
+[23:08:49] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[23:10:26] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:11:04] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:11:33] [Server thread/INFO]: Villager class_1646['Mason'/13315, l='ServerLevel[WhiteWorld]', x=-318.70, y=54.00, z=-2035.70] died, message: 'Mason was slain by Zombie'
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:23] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:25] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:25] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:27] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:30] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:30] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:32] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:32] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:32] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:32] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:35] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:35] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:35] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:35] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:35] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:36] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:36] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:36] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:36] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:12:36] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:13:00] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:13:00] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:13:00] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:13:00] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:13:01] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[23:13:24] [Server thread/WARN]: SubPatrick_213 moved wrongly!
+[23:14:11] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[23:18:02] [Server thread/INFO]: [Not Secure] <TheInactivity> ol
+[23:18:15] [Server thread/INFO]: [Not Secure] <TheInactivity> dejame reiniciar el svr
+[23:18:22] [Server thread/INFO]: [Not Secure] <TheInactivity> pa poner las skins
+[23:18:32] [Server thread/INFO]: [Not Secure] <SubPatrick_213> ok
+[23:18:34] [Server thread/INFO]: SubPatrick_213 lost connection: Disconnected
+[23:18:34] [Server thread/INFO]: SubPatrick_213 left the game
+[23:18:34] [Server thread/INFO]: [voicechat] Disconnecting client SubPatrick_213
+[23:18:37] [Server thread/INFO]: TheInactivity lost connection: Disconnected
+[23:18:37] [Server thread/INFO]: TheInactivity left the game
+[23:18:37] [Server thread/INFO]: [voicechat] Disconnecting client TheInactivity
