@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-07-14 21:54:23 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/drawer_key": {
     "criteria": {
       "has_template": "2025-07-14 21:35:25 +0000"
@@ -389,6 +395,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-07-14 21:54:23 +0000"
+    },
+    "done": true
+  },
   "usefulslime:recipes/slime_boots": {
     "criteria": {
       "has_slime": "2025-07-14 21:35:25 +0000"
@@ -400,6 +412,12 @@
       "seeds": "2025-07-14 21:35:25 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "ratatouille": "2025-07-14 21:54:23 +0000"
+    },
+    "done": false
   },
   "storagedrawers:recipes/storagedrawers/quantify_key": {
     "criteria": {
@@ -422,6 +440,12 @@
   "createdeco:recipes/decorations/iron_hull_from_stonecutting": {
     "criteria": {
       "has_item": "2025-07-14 21:35:25 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2025-07-14 21:54:23 +0000"
     },
     "done": true
   },
@@ -465,6 +489,8 @@
     "criteria": {
       "minecraft:cherry_grove": "2025-07-14 21:38:52 +0000",
       "minecraft:river": "2025-07-14 21:43:04 +0000",
+      "minecraft:dripstone_caves": "2025-07-14 21:59:00 +0000",
+      "minecraft:swamp": "2025-07-14 21:55:33 +0000",
       "minecraft:forest": "2025-07-14 21:34:51 +0000",
       "minecraft:ocean": "2025-07-14 21:36:08 +0000",
       "minecraft:plains": "2025-07-14 21:38:43 +0000"
@@ -474,6 +500,12 @@
   "storagedrawers:recipes/storagedrawers/balance_fill_upgrade": {
     "criteria": {
       "has_template": "2025-07-14 21:35:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-07-14 21:54:23 +0000"
     },
     "done": true
   },

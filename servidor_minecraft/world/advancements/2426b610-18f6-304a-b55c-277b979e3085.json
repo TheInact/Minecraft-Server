@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-14 21:51:00 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/drawer_key": {
     "criteria": {
       "has_template": "2025-07-14 21:36:30 +0000"
@@ -203,15 +209,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-07-14 21:56:58 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/personal_key": {
     "criteria": {
       "has_template": "2025-07-14 21:36:30 +0000"
     },
     "done": true
   },
+  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2025-07-14 21:56:58 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/birch_trim": {
     "criteria": {
       "has_planks": "2025-07-14 21:36:30 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2025-07-14 21:56:58 +0000"
     },
     "done": true
   },
@@ -230,6 +254,12 @@
   "storagedrawers:recipes/storagedrawers/jungle_trim": {
     "criteria": {
       "has_planks": "2025-07-14 21:36:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-07-14 21:51:00 +0000"
     },
     "done": true
   },
@@ -275,6 +305,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2025-07-14 21:56:58 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/mangrove_trim": {
     "criteria": {
       "has_planks": "2025-07-14 21:36:30 +0000"
@@ -296,6 +332,18 @@
   "usefulslime:recipes/jello": {
     "criteria": {
       "has_slime": "2025-07-14 21:36:30 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2025-07-14 21:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-07-14 21:51:00 +0000"
     },
     "done": true
   },
@@ -371,9 +419,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-07-14 21:56:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cherry_grove": "2025-07-14 21:38:55 +0000",
+      "minecraft:river": "2025-07-14 21:58:16 +0000",
+      "minecraft:dripstone_caves": "2025-07-14 21:58:54 +0000",
+      "minecraft:swamp": "2025-07-14 21:55:33 +0000",
       "minecraft:forest": "2025-07-14 21:24:42 +0000",
       "minecraft:ocean": "2025-07-14 21:29:43 +0000",
       "minecraft:plains": "2025-07-14 21:37:42 +0000"
