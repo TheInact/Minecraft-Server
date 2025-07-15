@@ -1652,7 +1652,9 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-15 02:04:37 +0000",
       "minecraft:spider": "2025-07-15 01:38:41 +0000",
-      "minecraft:zombie": "2025-07-15 01:22:31 +0000"
+      "minecraft:creeper": "2025-07-15 21:53:35 +0000",
+      "minecraft:zombie": "2025-07-15 01:22:31 +0000",
+      "minecraft:zombie_villager": "2025-07-15 21:53:13 +0000"
     },
     "done": false
   },
@@ -4663,33 +4665,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
+  "create:millstone": {
     "criteria": {
-      "has_smooth_stone": "2025-07-15 20:48:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-07-15 21:01:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/create_full_beacon": {
-    "criteria": {
-      "beacon": "2025-07-15 21:09:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2025-07-15 20:53:46 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
-    "criteria": {
-      "has_item": "2025-07-15 21:01:40 +0000"
+      "0": "2025-07-15 20:44:48 +0000"
     },
     "done": true
   },
@@ -4699,27 +4677,87 @@
     },
     "done": true
   },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-07-15 20:48:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-15 20:48:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-15 20:48:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-15 20:48:02 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/schematics/schematicannon": {
     "criteria": {
       "has_the_recipe": "2025-07-15 20:49:02 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/clipboard_clear": {
+  "create:recipes/misc/crafting/schematics/schematic_table": {
     "criteria": {
-      "has_item": "2025-07-15 21:04:31 +0000"
+      "has_the_recipe": "2025-07-15 20:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-07-15 20:53:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-07-15 20:54:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2025-07-15 20:54:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2025-07-15 20:54:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2025-07-15 20:54:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2025-07-15 20:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-07-15 20:54:19 +0000"
     },
     "done": true
   },
   "ae2:recipes/misc/network/cables/dense_smart_light_blue": {
     "criteria": {
       "has_dyes/black": "2025-07-15 20:54:21 +0000"
-    },
-    "done": true
-  },
-  "create:millstone": {
-    "criteria": {
-      "0": "2025-07-15 20:44:48 +0000"
     },
     "done": true
   },
@@ -4741,75 +4779,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2025-07-15 21:01:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/create_beacon": {
-    "criteria": {
-      "beacon": "2025-07-15 21:09:56 +0000"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/glass_light_blue": {
     "criteria": {
       "has_dyes/black": "2025-07-15 20:54:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-07-15 20:54:19 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/tree_fertilizer": {
-    "criteria": {
-      "has_item": "2025-07-15 21:01:40 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
-    "criteria": {
-      "has_item": "2025-07-15 20:54:19 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/schematics/empty_schematic": {
-    "criteria": {
-      "has_item": "2025-07-15 20:54:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2025-07-15 20:48:02 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/schematics/schematic_table": {
-    "criteria": {
-      "has_the_recipe": "2025-07-15 20:51:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2025-07-15 20:48:02 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/sand_paper": {
-    "criteria": {
-      "has_item": "2025-07-15 20:54:19 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/red_sand_paper": {
-    "criteria": {
-      "has_item": "2025-07-15 20:54:19 +0000"
     },
     "done": true
   },
@@ -4831,21 +4803,111 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2025-07-15 20:54:19 +0000"
-    },
-    "done": true
-  },
-  "create:fan_processing": {
-    "criteria": {
-      "0": "2025-07-15 20:48:01 +0000"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/dense_covered_light_blue": {
     "criteria": {
       "has_dyes/black": "2025-07-15 20:54:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-07-15 21:01:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-07-15 21:01:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-07-15 21:01:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-07-15 21:01:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard_clear": {
+    "criteria": {
+      "has_item": "2025-07-15 21:04:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2025-07-15 21:09:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-07-15 21:09:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-07-15 21:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-15 21:34:22 +0000"
     },
     "done": true
   },
