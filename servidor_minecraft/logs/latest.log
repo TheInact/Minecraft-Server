@@ -647,3 +647,9 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [19:50:19] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
 [19:52:00] [Server thread/INFO]: [TheInactivity: Set own game mode to Creative Mode]
+[19:56:20] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[19:58:15] [Server thread/INFO]: Villager class_1646['Villager'/539, l='ServerLevel[WhiteWorld]', x=-343.22, y=68.18, z=-1990.17] died, message: 'Villager was slain by Zombie'
+[19:58:36] [Server thread/INFO]: [TheInactivity: Set own game mode to Survival Mode]
+[19:59:01] [Server thread/INFO]: [TheInactivity: Made TheInactivity no longer a server operator]
+[19:59:48] [Server thread/INFO]: [Not Secure] <SubPatrick_213> zzzzzzz
