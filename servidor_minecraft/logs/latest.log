@@ -753,3 +753,22 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 [00:54:16] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
 [00:54:44] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
 [00:56:12] [Server thread/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[00:58:45] [Server thread/WARN]: SubPatrick_213 moved wrongly!
+[00:59:31] [Server thread/INFO]: TheInactivity lost connection: Disconnected
+[00:59:31] [Server thread/INFO]: TheInactivity left the game
+[00:59:31] [Server thread/INFO]: [voicechat] Disconnecting client TheInactivity
+[01:02:38] [Server thread/INFO]: SubPatrick_213 has made the advancement [What a Deal!]
+[01:03:06] [Server thread/INFO]: SubPatrick_213 has made the advancement [Suit Up]
+[01:03:11] [Server thread/INFO]: TheInactivity[/127.195.252.150:34057] logged in with entity id 5171 at (-318.3389093135557, 72.0, -1953.1152011515662)
+[01:03:11] [Server thread/INFO]: Sending server config values to client
+[01:03:12] [Server thread/INFO]: TheInactivity joined the game
+[01:03:12] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[01:03:13] [Server thread/INFO]: [voicechat] Received secret request of TheInactivity (18)
+[01:03:13] [Server thread/INFO]: [voicechat] Sent secret to TheInactivity
+[01:04:50] [Server thread/INFO]: SubPatrick_213 has made the advancement [Getting an Upgrade]
+[01:05:34] [Server thread/INFO]: [Not Secure] <TheInactivity> eu
+[01:05:41] [Server thread/INFO]: [Not Secure] <SubPatrick_213> a
+[01:05:45] [Server thread/INFO]: [Not Secure] <TheInactivity> como quito el contador de muertes
+[01:05:53] [Server thread/INFO]: [Not Secure] <SubPatrick_213> lo puse yo xd
+[01:06:11] [Server thread/INFO]: [Not Secure] <TheInactivity> moderfoker
+[01:06:49] [Server thread/INFO]: [TheInactivity: Gamerule doDaylightCycle is now set to: true]
