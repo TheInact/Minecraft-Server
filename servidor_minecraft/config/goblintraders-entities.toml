@@ -4,14 +4,14 @@ preventDespawnIfNamed = true
 [goblinTrader]
 	#The minimum level the trader can spawn
 	traderMinSpawnLevel = -64
-	#If true, the goblin will try to hit back a player or mob that hit them
-	canAttackBack = true
 	#The maximum level the trader can spawn
 	traderMaxSpawnLevel = 50
-	#The amount of ticks to wait before trying to spawn a trader again if the spawn failed
-	spawnInterval = 12000
+	#If true, the goblin will try to hit back a player or mob that hit them
+	canAttackBack = true
 	#The amount of ticks before the trader will despawn
 	traderDespawnDelay = 24000
+	#The amount of ticks to wait before trying to spawn a trader again if the spawn failed
+	spawnInterval = 12000
 	#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	restockDelay = 48000
 	#The amount of ticks before the trader will start spawning in a new world
@@ -23,10 +23,10 @@ preventDespawnIfNamed = true
 
 	[goblinTrader.trades]
 		[goblinTrader.trades.uncommon]
-			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 3
+			#The chance this trade rarity will be included in the goblin's trades
+			includeChance = 1.0
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 5
 		[goblinTrader.trades.common]
@@ -37,31 +37,31 @@ preventDespawnIfNamed = true
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 8
 		[goblinTrader.trades.legendary]
-			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 0.1
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 1
+			#The chance this trade rarity will be included in the goblin's trades
+			includeChance = 0.1
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 1
 		[goblinTrader.trades.rare]
-			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 3
+			#The chance this trade rarity will be included in the goblin's trades
+			includeChance = 1.0
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 4
 		[goblinTrader.trades.epic]
-			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 0
+			#The chance this trade rarity will be included in the goblin's trades
+			includeChance = 1.0
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 2
 [veinGoblinTrader]
-	#The maximum level the trader can spawn
-	traderMaxSpawnLevel = 128
 	#If true, the goblin will try to hit back a player or mob that hit them
 	canAttackBack = true
+	#The maximum level the trader can spawn
+	traderMaxSpawnLevel = 128
 	#The minimum level the trader can spawn
 	traderMinSpawnLevel = 0
 	#The amount of ticks before the trader will despawn
@@ -107,9 +107,9 @@ preventDespawnIfNamed = true
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 4
 		[veinGoblinTrader.trades.epic]
-			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 0
+			#The chance this trade rarity will be included in the goblin's trades
+			includeChance = 1.0
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 2
