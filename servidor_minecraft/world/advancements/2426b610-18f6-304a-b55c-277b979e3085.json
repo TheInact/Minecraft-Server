@@ -4206,15 +4206,39 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/decorative/quartz_vibrant_glass": {
+    "criteria": {
+      "has_quartz_glass": "2025-07-17 01:55:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/block_cutter/walls/fluix_wall": {
     "criteria": {
       "has_fluix_block": "2025-07-17 01:45:21 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/network/parts/quartz_fiber_part": {
     "criteria": {
       "has_dusts/quartz": "2025-07-17 01:45:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-07-17 01:54:52 +0000"
     },
     "done": true
   },
@@ -4230,9 +4254,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/energy_acceptor": {
+    "criteria": {
+      "has_energy_acceptor": "2025-07-17 01:55:24 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_pickaxe": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/shaped/stairs/fluix_block": {
     "criteria": {
       "has_fluix_block": "2025-07-17 01:45:21 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_hoe": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_vibration_chamber": {
+    "criteria": {
+      "has_energy_acceptor": "2025-07-17 01:55:24 +0000"
     },
     "done": true
   },
@@ -4254,9 +4308,21 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/tools/nether_quartz_sword": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/smelting/silicon_from_certus_quartz_dust": {
     "criteria": {
       "has_certus_quartz_dust": "2025-07-17 01:45:47 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_cutting_knife": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
     },
     "done": true
   },
@@ -4266,9 +4332,27 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/tools/network_tool": {
+    "criteria": {
+      "has_quartz_wrench": "2025-07-17 01:55:12 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_spade": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/decorative/quartz_fixture_from_anchors": {
     "criteria": {
       "has_charged_certus_quartz_crystal": "2025-07-17 01:46:03 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_wrench": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
     },
     "done": true
   },
@@ -4278,9 +4362,27 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/tools/nether_quartz_axe": {
+    "criteria": {
+      "has_nether_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-07-17 01:54:52 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/decorative/quartz_glass": {
     "criteria": {
       "has_quartz_dust": "2025-07-17 01:45:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-07-17 01:54:52 +0000"
     },
     "done": true
   },
@@ -4290,9 +4392,27 @@
     },
     "done": true
   },
+  "bagofholding:recipes/tools/iron_bag_of_holding": {
+    "criteria": {
+      "has_leather_bag_of_holding": "2025-07-17 01:54:14 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/shaped/slabs/fluix_block": {
     "criteria": {
       "has_fluix_block": "2025-07-17 01:45:21 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/panels_semi_dark_monitor": {
+    "criteria": {
+      "has_quartz_glass": "2025-07-17 01:55:21 +0000"
+    },
+    "done": true
+  },
+  "bagofholding:recipes/tools/golden_bag_of_holding": {
+    "criteria": {
+      "has_iron_bag_of_holding": "2025-07-17 01:58:49 +0000"
     },
     "done": true
   },
